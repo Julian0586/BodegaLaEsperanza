@@ -17,11 +17,11 @@ header {
 }
 
 .class_div {
-    color: rgb(59, 40, 40);
-    font-size: 2.5rem;
+    color: rgb(214, 192, 125);
+    font-size: 4em;
     text-align: center;
-    padding-top: 1cm;
     font-weight: bold;
+    margin-bottom: 6cm;
 }
 
 .navbar-nav {
@@ -43,12 +43,6 @@ li {
     
 }
 
-li a {
-    color: rgb(50, 42, 32);
-    text-decoration: none;
-    font-size: 1.8rem;
-    padding: 12px 22px;
-}
 
 .ul_nav{
     font-family: 'Noto Sans JP', sans-serif;
@@ -62,58 +56,47 @@ a:hover{
     color: rgb(217, 195, 142);
 }
 
+
 .main_fondo {
     background-image: url(https://cdn.pixabay.com/photo/2014/04/21/21/15/botti-329375_960_720.jpg);
     background-repeat: no-repeat; 
-    background-size: 1400px 1400px;
+    background-size: 1200px 1200px;
     background-position: center;
     margin-top: 3cm;
-    height: 100vh;
+    height: 1000px;
+    width: 100%;
     margin-bottom: 3cm;
+    display: flex;
+    align-items: center;
+}
+.section_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
 }
 
 .texto_bodega {
     color:rgb(195, 151, 99);
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
-    font-size: 4rem;
-    margin-top : 5cm;
-    margin-left: 2.5cm;
-    letter-spacing: 10px;
-    width: 80%;
-    overflow: hidden;
+    font-size: 4em;
+    width: 90%;
+    margin-top: 2cm;
+    
 }
 
 footer {
     background-color: rgb(60, 65, 66);
-    padding: 10px;
+    width: 100%;
 }
 
-#redessociales {
-    color: bisque;
-    font-family: 'Noto Sans JP', sans-serif;
-}
 
-.flexsociales {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-right: 1cm;
-}
-
-.logoinst {
-    width: 2.1cm;
-    padding-top: 0.1cm;
-
-}
-.logoface {
-    width: 1cm;
-    padding-top: 0.2cm;
-}
-
-.twitter {
-    width: 1.8cm;
-    padding: 10px;
-    margin-right: 0.2cm;
+.class_redes1 {
+    width: 20%;
+    margin-left: 70%;
 }
 
 .whatsaap1 {
@@ -133,7 +116,7 @@ footer {
 }
 
 .class_vinedo {
-    height: 1650px;
+    height: 2000px;
 }
 
 #section_vinos1 {
@@ -271,7 +254,7 @@ footer {
 
 #section_vinos3 {
     display: flex;
-    height: 65vh;
+    height: 75vh;
     margin-bottom: 1cm;
     width: 100%;
     align-items: center;
@@ -479,7 +462,7 @@ footer {
     text-align: center;
     margin-top: 3.5cm;
     padding-bottom: 2cm;
-    height: 1500px;
+    height: 1600px;
 }
 
 .class_malbec {
@@ -494,6 +477,7 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 .class_cabernetfranc {
@@ -515,7 +499,7 @@ footer {
 .color_titulo {
     color: rgb(195, 151, 99);
     margin-bottom: 1cm;
-    font-size: 2.5rem;
+    font-size: 2.1em;
 }
 
 .color_texto {
@@ -534,15 +518,23 @@ footer {
     "class_bonarda"
     "class_cabernetfranc"
     "class_syrah";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 89%;
     }
-    .ul_nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    .class_bonarda {
+        margin-top: 1cm;
     }
+    
     .container_aclamacion {
-    height: 3700px;
+    height: 3900px;
+    }
+    .color_titulo {
+        width: 70%;
+    }
+    .color_texto {
+        width: 70%;
     }
 }
 /*contacto*/
