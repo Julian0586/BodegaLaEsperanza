@@ -108,6 +108,18 @@ footer {
     width: 50px;
     height: 50px;
 }
+@media screen and (max-width:768px) {
+    footer {
+        height: 170px;
+        width: 100%;
+    }
+    .class_redes1 {
+        width: 50%;
+        height: 90px;
+        margin-left: 0;
+    }
+    
+}
 
 /*nuestrosvinos*/
 
@@ -155,6 +167,7 @@ footer {
     letter-spacing: 5px;
     padding-top: 2cm;
 }
+
 
 /*Malbec*/
 
